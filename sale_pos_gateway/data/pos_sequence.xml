@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- POS Payment Flow Sequence -->
+        <record id="seq_pos_payment_flow" model="ir.sequence">
+            <field name="name">POS Payment Flow</field>
+            <field name="code">pos.payment.flow</field>
+            <field name="prefix">PAY</field>
+            <field name="padding">8</field>
+            <field name="number_next">1</field>
+            <field name="number_increment">1</field>
+        </record>
+        
+        <!-- POS Payment Refund Sequence -->
+        <record id="seq_pos_payment_refund" model="ir.sequence">
+            <field name="name">POS Payment Refund</field>
+            <field name="code">pos.payment.refund</field>
+            <field name="prefix">REF</field>
+            <field name="padding">8</field>
+            <field name="number_next">1</field>
+            <field name="number_increment">1</field>
+        </record>
+    </data>
+</odoo>
